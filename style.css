@@ -1,0 +1,304 @@
+::-webkit-scrollbar {
+	width: 0;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    display: block;
+    margin-right: 20px;
+}
+
+.social{
+    display: flex;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.social img{
+    width: 30px;
+}
+
+.social-icon{
+    margin-right: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;		
+	grid-template-rows: 750px 500px 450px;
+	grid-template-areas: "item2 item2 item3 item3"
+	"item4 item5 item5 item5"
+	"item6 item6 item6 item7";
+}
+
+#it2{
+	position: relative;
+	background-color: green;
+	grid-area: item2;
+	background-image: url("img/bg2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	line-height: 1.7;
+}
+
+#it3{
+	background-color: yellow;
+	grid-area: item3;
+	background-image: url("https://images.wallpaperscraft.ru/image/koster_ogon_plamia_124705_1920x1080.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#it4{
+	background-color: blue;
+	grid-area: item4;
+	background-image: url("https://storge.pic2.me/c/1360x800/464/5fc7eb8fa32e67.51736756.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+}
+
+#it5{
+	background-color: red;
+	grid-area: item5;
+	background-image: url("img/bg5.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#it6{
+	background-color: orange;
+	grid-area: item6;
+	background-image: url("img/bg6.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#it7{
+	background-color: violet;
+	grid-area: item7;
+	background-image: url("https://poster.nicefon.ru/2018_03/26/1080x610/232001f8fc6cf5fffeaeae.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.grid-item{
+    background-color: white !important;
+    border: 0.5px solid gray;   
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+.text{
+    padding: 80px;
+}
+
+#it2{
+    padding-top: 150px;
+}
+
+.grid-item img{
+    width: 100%;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 30% 20% 10% 40%;		
+	grid-template-rows: 200px;
+	grid-template-areas: "item2 item2 item3 item3";
+}
+
+#gal-1{   
+	background-image: url("https://poster.nicefon.ru/2018_03/15/1080x610/219512d86199ecb8b88888.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#gal-22{   
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8JLf1scJYi33mS7HxNOWMpf-Sr99yno676Dsg4EE8LHpAYJJWuFMNkXRBAlEa0_8rgdY&usqp=CAU");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#gal-3{   
+	background-image: url("https://img.mvideo.ru/Pdb/50127790b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#gal-4{   
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1dnte8yGEE6EDwXLy5YpO0l_96_jwQAN7RMQzDjNSgIiu5AlFwGoKt9YHaouY1Nq167I&usqp=CAU");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;		
+	grid-template-rows: 200px 200px;
+    grid-template-areas: "ff-1 ff-2 ff-3"
+    "ff-4 ff-5 ff-6";
+}
+
+.feature-item{
+    border: 1px solid gray;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+#f-1{
+    border-top: 0;
+    border-left: 0;
+    grid-area: ff-1;
+}
+
+#f-2{
+    border-top: 0;
+    grid-area: ff-2;
+}
+#f-3{
+    border-top: 0;
+    border-right: 0;
+    grid-area: ff-3;
+}
+#f-4{
+    border-bottom: 0;
+    border-left: 0;
+    grid-area: ff-4;
+}
+#f-5{
+    border-bottom: 0;
+    grid-area: ff-5;
+}
+#f-6{
+    border-bottom: 0;
+    border-right: 0;
+    grid-area: ff-6;
+}
+
+.form-1, .form-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stolb{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-2{
+    align-items: center;
+}
+
+.form{
+    margin: 0 auto;
+    display: flex;
+    justify-self: stretch;
+    flex-direction: column;
+    align-items: stretch
+}
+
+footer p{
+    text-align: center;
+}
+
+.social-two{
+    width: 20%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+footer img{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+footer a:hover img{
+    opacity: 1;
+}
+
+header img{
+    opacity: 0.7;
+}
+
+header a:hover img{
+    opacity: 1;
+}
+
+.gallery-img{
+    transition: 1s;
+    opacity: 0.8;
+}
+
+.gallery-img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.arrow, .two-arrow{
+    position: absolute;
+    /* display: none; */
+    top: 40%;
+    right: 0%;
+    z-index: 1;
+}
+
+.gallery{
+    position: relative;
+}
+
+.gallery-img:hover .arrow{
+    opacity: 0.5;
+}
+
+.two-arrow{
+    right: 95%;
+    transform: rotate(180deg);
+}
+
+.button:hover{
+    background-color: gray;
+    color: white;
+}
+
+.button{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+    transition: 2.5s;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
